@@ -1,0 +1,441 @@
+
+body {
+	font-family: helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: 100;
+	/* IE10 Consumer Preview */ 
+background-image: -ms-radial-gradient(center, circle farthest-side, #6895B3 0%, #3480B4 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, circle farthest-side, #6895B3 0%, #3480B4 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, circle farthest-side, #6895B3 0%, #3480B4 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 425, color-stop(0, #6895B3), color-stop(1, #3480B4));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, circle farthest-side, #6895B3 0%, #3480B4 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(circle farthest-side at center, #6895B3 0%, #3480B4 100%);
+
+}
+
+.bg {
+	max-height: 3.4em;
+	background-color: #f6cd45;
+}
+
+.container {
+	max-width: 640px;
+	max-height: 1135px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	clear: none;
+}
+
+header{
+	max-height: 3em;
+	background-color: #f6cd45;
+	padding: 1em 0 1.1em 0;
+}
+
+.headercontent a {
+	font-size: 1.1em;
+	color: #292929;
+	font-weight: 400;
+}
+
+header p {
+	font-weight: 400;
+	display: inline;
+}
+
+.headercontent {
+	margin: 0 auto 0 auto;
+}
+
+.right img {
+	float: right;
+	margin: -.2em 1em 0 0;
+
+}
+
+.left img {
+	float: left;
+	margin: -.2em 0 0 1em;
+}
+
+img {
+	max-width: 100%;
+}
+
+.logo {
+	margin-bottom: 8%;
+	margin-top: 15%;
+}
+
+h4 {
+	color: #fef7fe;
+text-decoration: none;
+font-size: .8em;
+}
+
+h5 {
+	color: #fff;
+	font-size: .8em;
+	font-weight: 100;
+}
+
+/* FORM */
+
+.button {
+	width: 15em;
+	height: 2.1em;
+	background-color: #1f78b3;
+	color: #fef7fe;
+	border: 0;
+	border-radius: 5px;
+	margin: 5%;
+}
+
+.button-2 {
+	width: 6em;
+	height: 2.1em;
+	background-color: #1f78b3;
+	color: #fef7fe;
+	border: 0;
+	border-radius: 5px;
+	margin: .1em 0 0 10em;
+}
+
+.button-3 {
+	width: 6em;
+	height: 2.1em;
+	background-color: #d04a4a;
+	color: #fef7fe;
+	border: 0;
+	border-radius: 5px;
+	margin: .1em 0 0 0;
+}
+
+.button-4 {
+	width: 6em;
+	height: 2.1em;
+	background-color: #1f78b3;
+	color: #fef7fe;
+	border: 0;
+	border-radius: 5px;
+	margin: .1em 0 0 3.7em;
+}
+
+.search-button {
+	text-indent: -9000px;
+	height: 0px;
+	width: 0px;
+	border: 0;
+	padding: 0;
+	margin-top: -8px;
+
+}
+
+input[type=submit] {
+	padding: 1px;
+	font-weight: 100;
+}
+
+.topinput {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.bottominput {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top: 1px solid #bcbcc2;	
+}
+
+.forminput {
+	border-top: 1px solid #bcbcc2;	
+}
+
+.register-form {
+	margin-top: 25%;
+}
+
+input {
+	width: 15em;
+	height: 1.9em;
+	border: 0;
+	font-weight: 100;
+}
+ 
+ /* TEXT LINKS */
+ 
+ a {
+	color: #fef7fe;
+	text-decoration: none;
+	font-size: .8em;
+ }
+ 
+ p.welcome {
+	color: #fff;
+	font-size: 1.2em;
+	
+ }
+ 
+ /* SETTNGS MENU */
+ 
+ .sidr li {
+	color: #292929;
+ }
+ 
+ /* MAIN MENU */
+ 
+ ul {
+	padding: 0;
+ }
+ 
+.mainmenu li {
+	background-color: #ebebeb;
+	width: 15em;
+	height: 5em;
+	list-style-type: none;
+	margin: 2em auto 2em auto;
+	border-radius: 5px;
+}
+ 
+  
+.mainmenu li a {
+	color: #292929;
+	font-size: 1em;
+	font-weight: 200;
+	line-height: 4.5;
+	margin-right: 2em;
+}
+
+img.deck {
+	float: left;
+	margin: 1.5em 0 0 2em;
+}
+
+
+.grayed-out {
+	color: #999;
+}
+
+.error {
+	border: 2.5px solid #f16768;
+	border-radius: 5px;
+}
+
+/* REGISTER */
+
+.register-success {
+	margin-top: 37%;
+}
+
+/* ADDCARD */
+
+.addcard-form, .createdeck-form {
+	margin-top: .5em;
+	
+}
+
+.addcard {
+	height: 7.6em;
+	margin: .5em;
+	border-radius: 5px;
+	padding: .5em;
+	border: 0;
+	font-size: 1em;
+	font-weight: 100;
+}
+
+.addcard-title {
+	color: #fff;
+	margin-right: 8.5em;
+	font-size: 1.2em;
+}
+
+textarea {
+    resize: none;
+}
+
+/* CREATE DECKS */
+
+table.deckname {
+	margin-bottom: .5em;
+	background-color: #fff;
+	width: 264px;
+	text-align: left;
+	border-radius: 5px;
+}
+
+table.deckname td {
+	padding: .4em;
+}
+
+td.deckname-icon {
+	float:right;
+	margin-right: .2em;
+}
+
+table.deckdef {
+	background-color: #fff;
+	width: 264px;
+	text-align: left;
+	border-radius: 5px;
+}
+
+table.deckdef a {
+	color: #292929;
+	font-size: 1em;
+	background-color: #fff;
+	width: 264px;
+	text-align: left;
+	border-radius: 5px;
+}
+table.deckdef td {
+	padding: .4em;
+}
+
+.table {
+	margin: 0 auto;
+	margin-top: .5em;
+	border-radius: 5px;
+	width: 265px;
+}
+
+.deckdef tr {
+	border-top: 1px solid #bcbcc2;
+}
+
+/* FIND DECKS */
+
+.search-bar {
+	margin-top: .5em;	
+}
+
+.search-bar input {
+	border-radius: 5px;
+}
+
+table.search-results {
+	margin-top: 0 !important;
+	padding-top: 0;
+}
+
+.search-table {
+	margin: 0 auto;
+	padding-top: 0;
+	border-radius: 5px;
+	width: 265px;
+}
+
+/* FLASHCARD */
+
+.flashcard-buttons-next, .flashcard-buttons-previous {
+	margin-top: 3em;
+	display: inline-block;
+	width: 5em;
+	height: 2.1em;
+	background-color: #1f78b3;
+	border-radius: 5px;
+}
+
+.flashcard-buttons-next {
+	margin-left: 6.5em;
+}
+
+p.next, p.previous {
+	color: #fef7fe;
+	margin-top: .4em;
+	font-size: 1.2em;
+}
+	
+/* FONT AWESOME */
+
+.fa {
+	color: #292929;
+}
+
+.field {
+	border-radius: 5px;
+}
+
+p.white {
+	color: #fff;
+}
+
+/* CSS animation for Flashcard */
+
+/* toggle */
+
+.flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper {
+	transform: rotateY(180deg) !important;
+}
+
+		.flip-container {
+			-webkit-perspective: 1000;
+			-moz-perspective: 1000;
+			perspective: 1000;
+
+		}
+
+			
+			.flip-container:hover .flipper, .flip-container.hover .flipper, #flip-toggle.flip .flipper {
+				-webkit-transform: rotateY(180deg);
+				-moz-transform: rotateY(180deg);
+				transform: rotateY(180deg);
+				filter: FlipH;
+    			-ms-filter: "FlipH";
+			}
+
+		.flip-container, .front, .back {
+			width: 300px;
+			height: 275px;
+			margin: 1.3em auto 0 auto;
+		}
+
+		.flipper {
+			-webkit-transition: 0.6s;
+			-webkit-transform-style: preserve-3d;
+
+			-moz-transition: 0.6s;
+			-moz-transform-style: preserve-3d;
+
+			transition: 0.6s;
+			transform-style: preserve-3d;
+
+			position: relative;
+		}
+
+		.front, .back {
+			-webkit-backface-visibility: hidden;
+			-moz-backface-visibility: hidden;
+			backface-visibility: hidden;
+			border-radius: 5px;
+		
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		.front {
+			background: #fff;
+			z-index: 2;
+		}
+
+		.back {
+			background: #fff;
+			-webkit-transform: rotateY(180deg);
+			-moz-transform: rotateY(180deg);
+			transform: rotateY(180deg);
+		}
+
+		
+
+		
